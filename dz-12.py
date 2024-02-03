@@ -195,7 +195,7 @@ with open(file_name, "rb") as fh:
     unpacked = pickle.load(fh)
 
 
-print(unpacked)  
+print(f'Unpacked Adress Book: {unpacked}')  
 print(type(unpacked))
 
 for line in unpacked.iterator(1):
